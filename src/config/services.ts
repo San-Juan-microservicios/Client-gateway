@@ -1,0 +1,3 @@
+export const ALMACEN_SERVICE = 'ALMACEN_SERVICE';
+export const VENTAS_SERVICE = 'VENTAS_SERVICE';
+export const NATS_SERVICE = 'NATS_SERVICE';
