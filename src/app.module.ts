@@ -12,9 +12,10 @@ import { ProductosReportesModule } from './reportes/productos-reportes/productos
 import { InsumosReportesModule } from './reportes/insumos-reportes/insumos-reportes.module';
 import { PedidosReportesModule } from './reportes/pedidos-reportes/pedidos-reportes.module';
 import { PermisosReportesModule } from './reportes/permisos-reportes/permisos-reportes.module';
+import { AsistenciaModule } from './rrhh/asistencia/asistencia.module';
 
 @Module({
-  imports: [ProductosModule, ProveedoresModule, InsumosModule, PedidosModule, ClientesModule, NatsModule, EmpleadosModule, TiposModule, PermisosModule, ProductosReportesModule, InsumosReportesModule, PedidosReportesModule, PermisosReportesModule,],
+  imports: [ProductosModule, ProveedoresModule, InsumosModule, PedidosModule, ClientesModule, NatsModule, EmpleadosModule, TiposModule, PermisosModule, ProductosReportesModule, InsumosReportesModule, PedidosReportesModule, PermisosReportesModule, AsistenciaModule,],
   controllers: [],
   providers: [],
 })
